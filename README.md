@@ -12,3 +12,7 @@
 
 ### 7 More JSX
 
+### 8 ESX import statements
+
+### 9 React DOM vs React
+
