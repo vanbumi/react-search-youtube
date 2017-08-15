@@ -22,3 +22,19 @@ this is an instant **<App />** of JSX.
 
 ### 11 Render Targets
 
+    ReactDOM.render(<App, />, document.querySelector('.container'));
+
+### 12 Component Structure
+
+Create new folder: src/components
+
+Create new file : components/search_bar.js
+
+Create new file : components/video_detail.js    
+
+Create new file : components/video_list.js    
+
+Create new file : components/video_list_item.js
+
+
+
