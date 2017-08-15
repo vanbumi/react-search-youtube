@@ -16,3 +16,7 @@
 
 ### 9 React DOM vs React
 
+### 10 Diff Component instant and Component ...
+
+### 11 Render Targets
+
