@@ -36,5 +36,28 @@ Create new file : components/video_list.js
 
 Create new file : components/video_list_item.js
 
+### 13 Youtube Search API signup
+
+console.developers.google.com
+
+go to Dashboard > klik Library
+
+search for "youtube" > click YouTube Data API v3
+
+Click Enable API
+
+Go left handsite > click Credentials
+
+Click new credential > API key > Chose browser key and copy it.
+
+Add it into index.js
+
+    const API_KEY = 'AIzaSyBaKNWnjwmKDcFjm4ECO8ydA7mpn6DF6jg';
+
+Install npm package for youtube search:
+
+    npm install --save youtube-api-search    
+
+Open file package.json youtube search has there.
 
 
