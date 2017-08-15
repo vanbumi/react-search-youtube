@@ -18,5 +18,7 @@
 
 ### 10 Diff Component instant and Component ...
 
+this is an instant **<App />** of JSX.
+
 ### 11 Render Targets
 
