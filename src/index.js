@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import SearchBar from './components/search_bar';
 
 const API_KEY = 'AIzaSyBaKNWnjwmKDcFjm4ECO8ydA7mpn6DF6jg';
 
@@ -7,7 +8,10 @@ const API_KEY = 'AIzaSyBaKNWnjwmKDcFjm4ECO8ydA7mpn6DF6jg';
 // some HTML
 
 const App = () => {
-  return <div>Hello! ganti with fat arrow</div>
+  return (
+    <div>
+      <SearchBar />
+    </div>)
 };
 
 // take this component's generated HTML and put it

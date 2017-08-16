@@ -18,7 +18,7 @@
 
 ### 10 Diff Component instant and Component ...
 
-this is an instant **<App />** of JSX.
+    this is an instant "<App />" of JSX.
 
 ### 11 Render Targets
 
@@ -60,4 +60,29 @@ Install npm package for youtube search:
 
 Open file package.json youtube search has there.
 
+### 14 Export Statemen
 
+search_bar.js:
+
+    import React from 'react';
+
+    const SearchBar = () => {
+    return <Input />
+    };
+
+    export default SearchBar;
+
+Import SearchBar:
+
+    import SearchBar from 'search_bar'
+
+Update return nya:
+
+    const App = () => {
+    return (
+        <div>
+            <SearchBar />
+        </div>)
+    };
+
+Test di browser        
