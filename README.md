@@ -60,7 +60,7 @@ Install npm package for youtube search:
 
 Open file package.json youtube search has there.
 
-### 14 Export Statemen
+### 14 Export Statement
 
 search_bar.js:
 
@@ -86,3 +86,17 @@ Update return nya:
     };
 
 Test di browser        
+
+### 15 Class Based Components
+
+Change search_bar to become class base 
+
+    class SearchBar extends Component {
+        render() {
+            return (
+            <input />
+            );
+        }
+    }
+
+    
