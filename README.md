@@ -67,22 +67,23 @@ search_bar.js:
     import React from 'react';
 
     const SearchBar = () => {
-    return <Input />
+        return <Input />
     };
 
     export default SearchBar;
 
-Import SearchBar:
+**Import SearchBar**:
 
-    import SearchBar from 'search_bar'
+    import SearchBar from './components/search_bar';
 
 Update return nya:
 
     const App = () => {
-    return (
-        <div>
-            <SearchBar />
-        </div>)
+        return (
+            <div>
+                <SearchBar />
+            </div>
+        )
     };
 
 Test di browser        
@@ -99,4 +100,47 @@ Change search_bar to become class base
         }
     }
 
-### 16 Handling User Event    
+### 16 Handling User Event
+
+Handle event di React ada 2 step:
+
+* Kita declare event handler, event handler adalah sebuha function.
+* Melewatkan event handler tsb ke dalam element event.
+
+Ada 2 cara membuat event handler:
+
+Step 1 :
+
+    import React, {Component}  from 'react';
+
+    class SearchBar extends Component {
+        render() {
+            return (
+                <input onChange={this.onInputChange} />
+            );
+        }
+
+        onInputChange(event) {
+            return console.log(event.target.value)
+        }
+    }
+
+    export default SearchBar;
+
+Step 2 refactor menjadi 1 baris:
+
+    import React, {Component}  from 'react';
+
+    class SearchBar extends Component {
+        render() {
+            return (
+                <input onChange={event => console.log(event.target.value)} />
+            );
+        }
+    }
+
+    export default SearchBar;         
+
+### 17 Introduction to state
+
+### 18 More on State       
