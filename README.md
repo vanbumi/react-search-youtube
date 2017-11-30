@@ -1,20 +1,26 @@
 # ReduxSimpleStarter
 
-## 5 ... 
+## 5 Project setup
+
+Run server
+
+    npm start
+
+    localhost:8080
 
 ## 6 Taste of JSX
 
-### Delete or folder boilerplate
+#### Delete or folder boilerplate
 
-### Create new folder src
+#### Create new folder src
 
-### Create new file src/index.js
+#### Create new file src/index.js
 
-### 7 More JSX
+## 7 More JSX
 
-### 8 ESX import statements
+## 8 ESX import statements
 
-### 9 React DOM vs React
+## 9 React DOM vs React
 
 ### 10 Diff Component instant and Component ...
 
