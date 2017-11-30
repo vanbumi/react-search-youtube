@@ -1,4 +1,4 @@
-# ReduxSimpleStarter
+# React Search Youtube
 
 
 **Repo name GITHUB : react-search-youtube**
