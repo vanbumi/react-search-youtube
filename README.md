@@ -4,7 +4,7 @@
 **Repo name GITHUB : react-search-youtube**
 
 
-## 5 Project setup
+## Project setup
 
 Run server
 
@@ -12,7 +12,7 @@ Run server
 
     localhost:8080
 
-## 6 Taste of JSX
+## Taste of JSX
 
 #### Delete or folder boilerplate
 
@@ -20,33 +20,33 @@ Run server
 
 #### Create new file src/index.js
 
-## 7 More JSX
+## More JSX
 
-## 8 ESX import statements
+## ESX import statements
 
-## 9 React DOM vs React
+## React DOM vs React
 
-### 10 Diff Component instant and Component ...
+### Diff Component instant and Component ...
 
     this is an instant "<App />" of JSX.
 
-### 11 Render Targets
+### Render Targets
 
     ReactDOM.render(<App, />, document.querySelector('.container'));
 
-### 12 Component Structure
+### Component Structure
 
-Create new folder: src/components
+* Create new folder: src/components
 
-Create new file : components/search_bar.js
+* Create new file : components/search_bar.js
 
-Create new file : components/video_detail.js    
+* Create new file : components/video_detail.js    
 
-Create new file : components/video_list.js    
+* Create new file : components/video_list.js    
 
-Create new file : components/video_list_item.js
+* Create new file : components/video_list_item.js
 
-### 13 Youtube Search API signup
+### Youtube Search API signup
 
 console.developers.google.com
 
@@ -70,7 +70,7 @@ Install npm package for youtube search:
 
 Open file package.json youtube search has there.
 
-### 14 Export Statement
+## Export Statement
 
 search_bar.js:
 
@@ -98,7 +98,7 @@ Update return nya:
 
 Test di browser        
 
-### 15 Class Based Components
+## Class Based Components
 
 Change search_bar to become class base 
 
@@ -110,7 +110,7 @@ Change search_bar to become class base
         }
     }
 
-### 16 Handling User Event
+## Handling User Event
 
 Handle event di React ada 2 step:
 
@@ -151,6 +151,8 @@ Step 2 refactor menjadi 1 baris:
 
     export default SearchBar;         
 
-### 17 Introduction to state
+## Introduction to state
 
-### 18 More on State       
+## More on State       
+
+
